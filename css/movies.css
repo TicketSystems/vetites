@@ -1,0 +1,99 @@
+/* Styles for the movie streaming page */
+/* ... (Include styles from your previous CSS for consistency) */
+
+body {
+    background-color: #252525;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+  
+  header {
+    background-color: #ff6600;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin-left: 10px;
+    vertical-align: top;
+  }
+  
+  nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-right: 20px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  section {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row; /* Updated to row */
+    align-items: center;
+    overflow-x: scroll; /* Added to enable horizontal scrolling */
+  }
+  
+  section h2 {
+    color: #ff6600;
+    margin-right: 20px; /* Added margin to separate h2 from movies */
+  }
+  
+  .movie {
+    margin-right: 20px; /* Added margin between movies */
+    min-width: 300px; /* Added minimum width for each movie */
+    display: flex;
+    flex-direction: column; /* Updated to column to stack movie content */
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movie img {
+    width: 100%; /* Updated to fill the container horizontally */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .movie h3 {
+    margin-top: 10px;
+    text-align: left;
+  }
+  
+  footer {
+    margin-top: auto;
+    padding: 20px;
+    background-color: #ff6600;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+
+#movie-player {
+    margin: 20px auto;
+  }
+  
+  /* ... (Add additional styles as needed) */
+  

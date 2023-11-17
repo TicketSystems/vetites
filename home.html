@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GrillázsMozi | Főoldal</title>
+    <link rel="icon" href="images/orange_textless_logo.ico" type="image/png">
+    <link rel="stylesheet" href="css/home.css">
+</head>
+<body>
+    <header>
+        <img src="images/black_textless_logo.ico" style="display: inline;">
+        <h1 style="display: inline;">  GrillázsMozi</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Főoldal</a></li>
+                <li><a href="movies.html">Filmek</a></li>
+                <li><a href="#">Sorozatok</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="popup" id="popup">
+        <img src="images/orange_textless_logo.ico">
+        <h2 id="popupTitle">Cím</h2>
+        <p id="popupDesc">Leírás</p>
+        <input type="text" id="accessCode">
+        <button type="button" onclick="closeMonkey()">OK</button>
+      </div>
+
+   
+    <section id="featured-movies">
+        <h2 id="label">Filmek:</h2>
+        <!-- Placeholder for featured movies -->
+        <div class="movie">
+            <a onclick="openMonkey()"><img src="images/posters/fivelittlemonkeys_poster.jpg" id="poster"></a>
+            <h3>Öt Kicsi Majom</h3>
+        </div>
+        <div class="movie">
+            <a onclick="openApuci2()"><img src="images/posters/megjottapuci_poster.jpg" id="poster"></a>
+            <h3>Megjött apuci 2</h3>
+        </div>
+        <!-- Add more movies as needed -->
+    </section>
+
+    <section id="popular-movies">
+        
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Grillázs TV. All rights reserved.</p>
+    </footer>
+    <script src="js/filmopen.js"></script>
+</body>
+</html>
